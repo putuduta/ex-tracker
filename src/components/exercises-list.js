@@ -51,7 +51,7 @@ export default class ExercisesList extends Component {
   render() {
     return (
       <div className="container">
-        <h3 className="text-center pb-3">Logged Exercises</h3>
+        <h3 className="text-center pb-3">Exercises Lists</h3>
         <table className="table">
           <thead className="thead-light">
             <tr>

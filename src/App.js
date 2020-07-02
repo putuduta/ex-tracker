@@ -2,7 +2,9 @@ import React from 'react';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
-import Navbar from "./components/navbar";
+import './App.css';
+import Navbar from "./components/partial/navbar";
+import Footer from "./components/partial/footer";
 import ExercisesList from "./components/exercises-list";
 import EditExercise from "./components/edit-exercise";
 import CreateExercise from "./components/create-exercise";
@@ -19,6 +21,7 @@ function App() {
         <Route path="/create" component={CreateExercise} />
         <Route path="/user" component={CreateUser} />
       </div>
+      <Footer />
     </Router>
   );
 }
