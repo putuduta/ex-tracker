@@ -2,7 +2,7 @@ import React from 'react';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route} from "react-router-dom";
 
-import './App.css';
+import './styles/App.css';
 import Navbar from "./components/partial/navbar";
 import Footer from "./components/partial/footer";
 import ExercisesList from "./components/exercises-list";
